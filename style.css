@@ -1,0 +1,141 @@
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{background-color: rgba(32, 33, 36, 1);
+    margin: 0px;
+}
+
+#perfil {
+    width: 35px;
+    border-radius: 50%;
+    height: 35px;
+}
+
+
+figure {
+    width: 20px;
+    margin: 0px;
+    padding: 10px;
+}
+
+#cuadro {
+    width: 20px;
+}
+
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li{
+    display: inline-block; 
+    padding: 15px;
+ }
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 76vh;
+}
+
+#logo {
+    margin-top: 18vh;
+    height: 92px;
+}
+
+#buscador {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #707070c9;
+    align-items: stretch;
+    height: 40px;
+    width: 572px;
+    border-radius: 25px;
+    margin: 25px 0px 20px 0px;
+}
+
+#buscador input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    background-color: rgba(32, 33, 36, 1);
+}
+
+#buscador:hover {    
+    background: #807f7f69;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+    border-color: transparent;
+}
+
+footer {
+    background: #191919e1;
+}
+
+footer p {
+    padding: 15px;
+    margin: 0px;
+    color: aliceblue;
+    border-bottom: 1px solid #707070c9;
+}
+
+article {
+    text-align: center;
+}
+
+button {
+    background-color: #303134;
+    border: 1px solid #303134;
+    padding: 0 16px;
+    margin: 11px 4px;
+    height: 36px;
+    font-size: 14px;
+    color: #e6e9ea;
+    border-radius: 4px;
+}
+
+button:hover {
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #2b2c2d;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+header a {
+    font-size: 13px;
+    color: #fbf6f6;
+}
+footer a {
+    font-size: 14px;
+    color: #ffffff;;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+
